@@ -1,0 +1,24 @@
+.FormElement{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: .5rem;
+    box-sizing: border-box;
+    font-size: inherit;
+    outline: 0;
+    border: 1px solid #ccc;
+}
+
+.FormElement::placeholder{
+    color: rgb(48, 48, 48);
+}
+
+.FormElement:focus{
+    outline: 0;
+    background-color: #ccc;
+}
+
+.Invalid{
+    border: 1px solid red;
+    background: rgb(250, 158, 148);
+}
